@@ -1,0 +1,7 @@
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\obj\Debug\SlackWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\obj\Debug\SlackWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\bin\Debug\SlackWebAPI.exe.config
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\bin\Debug\SlackWebAPI.exe
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\bin\Debug\SlackWebAPI.pdb
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\obj\Debug\SlackWebAPI.exe
+C:\Users\simon.crouch\Desktop\simon files\testing\SlackWebAPI\SlackWebAPI\obj\Debug\SlackWebAPI.pdb
