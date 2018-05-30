@@ -22,6 +22,7 @@ namespace SlackWebAPI
             string LastNoteBy = "Stuart";
             DateTime LastNoteAddedOn = new DateTime(2018, 05, 07, 11, 00, 00, DateTimeKind.Local);
             string LastNoteText = "Updated website";
+            string Colour = "FF0000";  // red
 
             PostCRMAlert(SlackChannelName, 
                 SlackToken,
@@ -37,7 +38,8 @@ namespace SlackWebAPI
                 Status,
                 LastNoteBy,
                 LastNoteAddedOn,
-                LastNoteText);
+                LastNoteText,
+                Colour);
         }
 
         public static void PostCRMAlert(
@@ -55,7 +57,8 @@ namespace SlackWebAPI
             string Status,
             string LastNoteBy,
             DateTime LastNoteAddedOn,
-            string LastNoteText)
+            string LastNoteText,
+            string Colour)
         {
             var LastNoteAddedOnEpoch = new DateTimeOffset(LastNoteAddedOn).ToUnixTimeSeconds();
 
@@ -87,7 +90,7 @@ namespace SlackWebAPI
             {
                 Pretext = $"Priority issue raised for {CustomerName} on {CreatedOn.ToString("dd/MMM/yy")}",
                 Fallback = Description,
-                Color = "FF0000",
+                Color = Colour,
                 AuthorName = $"{CustomerName} ({CustomerPhone})",
                 AuthorLink = $"mailto:{CustomerEmail}",
                 AuthorIcon = "https://cdn4.iconfinder.com/data/icons/48-bubbles/48/29.Mac-256.png",  // bit naughty, direct linking here
